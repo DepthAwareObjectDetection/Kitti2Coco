@@ -4,11 +4,11 @@ import os
 import sys
 
 #data_set path
-kitti_img_path = '/home/pakcy/Desktop/PyTorch-YOLOv3/data/kitti/images/train/'
-kitti_label_path = '/home/pakcy/Desktop/PyTorch-YOLOv3/data/kitti/raw_labels/train/'
+kitti_img_path = '/home/shantnav/Documents/CS4245/view-of-delft-dataset/lidar_mini/training/image_depth_2'
+kitti_label_path = '/home/shantnav/Documents/CS4245/view-of-delft-dataset/lidar_mini/training/label_2'
 
 #transformed lables path
-kitti_label_tosave_path = 'kitti/labels2coco/'
+kitti_label_tosave_path = 'coco/lidar_mini'
 
 #the real ptah of your data set
 kitti_data_real_path = '/home/pakcy/Desktop/PyTorch-YOLOv3/data/kitti/images/train/'
